@@ -4,6 +4,12 @@
 
 click on "use this template"
 
+## Install dependencies
+
+```
+npm i
+```
+
 ## Start project
 
 ```
@@ -14,6 +20,14 @@ npm run dev
 
 ```
 npm run build
+```
+
+## Run builded project
+
+> You must [build](#build-project) before run this command
+
+```
+npm run preview
 ```
 
 ## Validate project using w3c-validator
@@ -35,5 +49,5 @@ npm run preview
 ```
 
 ```
-npx @jokay03j-v2/w3c-validator
+npx @jokay03j-v2/w3c-validator <your url> -t
 ```
